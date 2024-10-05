@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 600px) {
+    .cabecalholink ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        
+    }
+ 
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .foto {
+        width: 150px;
+        height: 150;
+       
+    }
+
+    section > p, section > h2 {
+        padding: 10px;
+        max-width: 90%;
+    }
+}
+
+#principal {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #294f84;
+    border: 1px solid #000; 
+    margin: 1px auto; 
+    font-weight: 400; 
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: center; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 2em; 
+}
+
+.cabecalholink {
+    display: flex;
+    padding-top: 1%;
+    justify-content: center; 
+    gap: 3rem; 
+    cursor: pointer;
+    margin: auto;
+    
+}
+
+.cabecalholink a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding: 10px 20px;
+    background-color: #294f84;
+    border-radius: 5px;
+    transition: 0.5s;
+   
+}
+
+.cabecalholink a:hover {
+    color: white;
+    background-color: #3ddc84;
+}
+
+.foto {
+    border: 2px solid #000;
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    display: flex;
+}
+
+section > p {
+    text-align: justify;
+    background-color: #f5f5f5; 
+    max-width: 1000px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px; 
+}
+
+section > h2 {
+    max-width: 1000px;
+    margin: 20px auto; 
+    text-align: center;
+    padding: 10px;
+}
+
+.tabela-habilidades {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-habilidades th,
+.tabela-habilidades td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela-habilidades th {
+    background-color: #294f84;
+    color: white;
+}
+
+button {
+    background-color: #294f84;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #3ddc84; 
+    transform: scale(1.05); 
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background-color: #294f84;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+form button:hover {
+    background-color: #3ddc84; 
+    transform: scale(1.05); 
+}
+body {
+    background-color: #e6f7ff;
+    color: #1982c4;
+    font-family: 'Verdana', sans-serif;
+}
+footer > p{
+    margin: auto;
+    text-align: center;
+}
+footer{
+    background-color: #294f84;
+    color: white;
+}
